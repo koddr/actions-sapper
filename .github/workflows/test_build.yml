@@ -1,0 +1,17 @@
+name: Test Build
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Build
+        uses: truewebartisans/actions-sapper@master
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@master
+        env:
+          PUBLISH_DIR: __sapper__/export
+          PUBLISH_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
