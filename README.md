@@ -29,7 +29,7 @@ For example:
     args: "--legacy --entry about"
 ```
 
-## 👀 More complex example
+## 👀 More complex examples
 
 These are examples, which _builds the website_ with this action, then deploys with another action.
 
