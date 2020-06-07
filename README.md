@@ -57,6 +57,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
+#### 📺 GitHub Pages demo repository
+
+This demo for Sapper-based website was build with `export` flag and deployed to GitHub Pages from `gh-pages` branch.
+
+- Repository: https://github.com/truewebartisans/actions-sapper-demo
+- Live result: https://sapper-action.gh.1wa.co
+
 ### 💡 Deploy to remote virtual server (VDS/VPS/Droplet) via SSH
 
 - Deploy action: [appleboy/scp-action](https://github.com/appleboy/scp-action)
