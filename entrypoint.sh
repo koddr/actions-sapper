@@ -3,5 +3,5 @@
 echo "Running \`npm install\`"
 npm install
 
-echo "Running Sapper"
+echo "Build Sapper"
 npx sapper $INPUT_BUILD_MODE $INPUT_ARGS
