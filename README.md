@@ -14,10 +14,10 @@ To use it, create a `.github/workflows/sapper_build.yml` file in your Sapper-bas
 
 This action accepts a couple of _optional_ inputs:
 
-| Input Name   | Required? |   Default    | Description                                             |
-| ------------ | :-------: | ---------- | ------------------------------------------------------- |
-| `build_mode` |    No     |  `"export"`  | Build mode to the Sapper |
-| `args`       |    No     | `"--legacy"` | Arguments to pass to the Sapper invocation              |
+| Input Name   | Required? | Default      | Description                                |
+| ------------ | :-------: | ------------ | ------------------------------------------ |
+| `build_mode` |    No     | `"export"`   | Build mode to the Sapper                   |
+| `args`       |    No     | `"--legacy"` | Arguments to pass to the Sapper invocation |
 
 For example:
 
