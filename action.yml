@@ -1,6 +1,9 @@
 name: "Sapper Action"
 description: "Build your Sapper-based static website"
 author: "Vic Shóstak"
+branding:
+  icon: "package"
+  color: "blue"
 inputs:
   build_mode:
     description: "Build mode to the Sapper (could be `build` or `export`, by default `export`)"
