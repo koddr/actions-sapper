@@ -2,17 +2,21 @@
 
 Use this action to build your static website with [Sapper](https://sapper.svelte.dev/).
 
+![GitHub Action for Sapper](.github/gh-cover.png)
+
 ## ☝️ How to use?
 
-To use it, create a `.github/workflows/sapper_build.yml` file in your Sapper website repository, which [uses this article](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idsteps), as an action.
+To use it, create a `.github/workflows/sapper_build.yml` file in your Sapper-based website repository as an action.
+
+> 📌 **Tip**: read [this article](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idsteps) to more understand GitHub Actons steps.
 
 ## ⚙️ Inputs
 
 This action accepts a couple of _optional_ inputs:
 
 | Input Name   | Required? |   Default    | Description                                             |
-| ------------ | :-------: | :----------: | ------------------------------------------------------- |
-| `build_mode` |    No     |  `"export"`  | Build mode to the Sapper (could be `build` or `export`) |
+| ------------ | :-------: | ---------- | ------------------------------------------------------- |
+| `build_mode` |    No     |  `"export"`  | Build mode to the Sapper |
 | `args`       |    No     | `"--legacy"` | Arguments to pass to the Sapper invocation              |
 
 For example:
