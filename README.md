@@ -51,10 +51,10 @@ jobs:
         uses: truewebartisans/actions-sapper@master
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@master
-        env:
-          PUBLISH_DIR: __sapper__/export
-          PUBLISH_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          publish_dir: __sapper__/export
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ### 💡 Deploy to remote virtual server (VDS/VPS/Droplet) via SSH
