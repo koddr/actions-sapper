@@ -1,4 +1,4 @@
-# GitHub Action for Sapper
+# :octocat: GitHub Action for Sapper
 
 Use this action to build your static website with [Sapper](https://sapper.svelte.dev/).
 
