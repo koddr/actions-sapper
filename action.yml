@@ -10,9 +10,8 @@ inputs:
     required: false
     default: "export"
   args:
-    description: "Arguments to pass to the Sapper invocation (by default `--legacy`)"
+    description: "Arguments to pass to the Sapper invocation"
     required: false
-    default: "--legacy"
 runs:
   using: "docker"
   image: "Dockerfile"
