@@ -17,7 +17,7 @@ This action accepts a couple of _optional_ inputs:
 | Input Name   | Required? | Default      | Description                                |
 | ------------ | :-------: | ------------ | ------------------------------------------ |
 | `build_mode` |    No     | `"export"`   | Build mode to the Sapper                   |
-| `args`       |    No     | `"--legacy"` | Arguments to pass to the Sapper invocation |
+| `args`       |    No     | `none` | Arguments to pass to the Sapper invocation |
 
 For example:
 
